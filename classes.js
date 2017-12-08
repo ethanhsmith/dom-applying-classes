@@ -11,6 +11,8 @@ function start () {
 
   three()
   // Your turn! Create a new function called `two`, then call it from here.
+
+  makeVisible()
 }
 
 function one () {
@@ -30,8 +32,8 @@ function three () {
   var three = document.getElementById('three')
   three.classList.toggle('purple')
 }
-// CREATE FUNCTION two HERE
 
-// CREATE FUNCTION three HERE
-
-// CREATE FUNCTION makeVisible HERE
+function makeVisible () {
+  var four = document.getElementsByClassName('invisible')[0]
+  four.classList.remove('invisible')
+}
