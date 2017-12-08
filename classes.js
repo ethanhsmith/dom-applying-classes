@@ -8,6 +8,8 @@ function start () {
   one()
 
   two()
+
+  three()
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -22,6 +24,11 @@ function one () {
 function two () {
   var two = document.getElementById('two')
   two.classList.toggle('green')
+}
+
+function three () {
+  var three = document.getElementById('three')
+  three.classList.toggle('purple')
 }
 // CREATE FUNCTION two HERE
 
